@@ -1,0 +1,11 @@
+# Your Wi-Fi password lives here - never commit it
+ESP32_Smart_Station/secrets.h
+
+# Dashboard build output and dependencies
+dashboard/node_modules/
+dashboard/dist/
+
+# Altium auto-generated history, logs and previews
+hardware/Smart_Station/History/
+hardware/Smart_Station/Project Logs for Smart_Station/
+hardware/Smart_Station/__Previews/

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1060" width="1200" height="1060" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1200" height="1060" fill="#ffffff"/>
+
+  <text x="600" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">ESP32 Smart Station v2 — new pin map</text>
+  <text x="600" y="72" text-anchor="middle" font-size="14" fill="#64748b">ESP32 DevKit V1 (30-pin), top view: antenna up, USB down. Only the coloured pins are used.</text>
+
+  <!-- ===================== DevKit board ===================== -->
+  <rect x="480" y="100" width="240" height="500" rx="10" fill="#1e293b"/>
+  <rect x="525" y="108" width="150" height="48" rx="4" fill="#334155"/>
+  <path d="M545 142 h10 v-20 h10 v20 h10 v-20 h10 v20 h10 v-20 h10 v20 h10 v-20 h10 v20 h10 v-20 h10 v20" fill="none" stroke="#fbbf24" stroke-width="2"/>
+  <text x="600" y="153" text-anchor="middle" font-size="9" fill="#cbd5e1">ANTENNA</text>
+  <rect x="562" y="172" width="76" height="120" rx="4" fill="#94a3b8"/>
+  <text x="600" y="228" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">ESP32</text>
+  <text x="600" y="243" text-anchor="middle" font-size="10" fill="#1e293b">WROOM-32</text>
+  <rect x="572" y="588" width="56" height="26" rx="3" fill="#cbd5e1" stroke="#64748b"/>
+  <text x="600" y="606" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">USB</text>
+
+  <!-- Left header pins (top to bottom) -->
+  <g font-size="12" fill="#e2e8f0">
+    <circle cx="500" cy="180" r="7" fill="#475569" stroke="#94a3b8"/><text x="514" y="184">EN</text>
+    <circle cx="500" cy="208" r="7" fill="#475569" stroke="#94a3b8"/><text x="514" y="212">VP</text>
+    <circle cx="500" cy="236" r="7" fill="#475569" stroke="#94a3b8"/><text x="514" y="240">VN</text>
+    <circle cx="500" cy="264" r="7" fill="#2563eb"/><text x="514" y="268" font-weight="700">D34</text>
+    <circle cx="500" cy="292" r="7" fill="#2563eb"/><text x="514" y="296" font-weight="700">D35</text>
+    <circle cx="500" cy="320" r="7" fill="#2563eb"/><text x="514" y="324" font-weight="700">D32</text>
+    <circle cx="500" cy="348" r="7" fill="#7c3aed"/><text x="514" y="352" font-weight="700">D33</text>
+    <circle cx="500" cy="376" r="7" fill="#15803d"/><text x="514" y="380" font-weight="700">D25</text>
+    <circle cx="500" cy="404" r="7" fill="#c2410c"/><text x="514" y="408" font-weight="700">D26</text>
+    <circle cx="500" cy="432" r="7" fill="#475569" stroke="#94a3b8"/><text x="514" y="436">D27</text>
+    <circle cx="500" cy="460" r="7" fill="#475569" stroke="#94a3b8"/><text x="514" y="464">D14</text>
+    <circle cx="500" cy="488" r="7" fill="#475569" stroke="#94a3b8"/><text x="514" y="492">D12</text>
+    <circle cx="500" cy="516" r="7" fill="#475569" stroke="#94a3b8"/><text x="514" y="520">D13</text>
+    <circle cx="500" cy="544" r="7" fill="#9ca3af"/><text x="514" y="548" font-weight="700">GND</text>
+    <circle cx="500" cy="572" r="7" fill="#dc2626"/><text x="514" y="576" font-weight="700">VIN</text>
+  </g>
+
+  <!-- Right header pins (top to bottom) -->
+  <g font-size="12" fill="#e2e8f0" text-anchor="end">
+    <circle cx="700" cy="180" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="184">D23</text>
+    <circle cx="700" cy="208" r="7" fill="#0f766e"/><text x="686" y="212" font-weight="700">D22</text>
+    <circle cx="700" cy="236" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="240">TX0</text>
+    <circle cx="700" cy="264" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="268">RX0</text>
+    <circle cx="700" cy="292" r="7" fill="#0f766e"/><text x="686" y="296" font-weight="700">D21</text>
+    <circle cx="700" cy="320" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="324">D19</text>
+    <circle cx="700" cy="348" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="352">D18</text>
+    <circle cx="700" cy="376" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="380">D5</text>
+    <circle cx="700" cy="404" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="408">TX2</text>
+    <circle cx="700" cy="432" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="436">RX2</text>
+    <circle cx="700" cy="460" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="464">D4</text>
+    <circle cx="700" cy="488" r="7" fill="#1e293b" stroke="#60a5fa" stroke-width="2"/><text x="686" y="492">D2</text>
+    <circle cx="700" cy="516" r="7" fill="#475569" stroke="#94a3b8"/><text x="686" y="520">D15</text>
+    <circle cx="700" cy="544" r="7" fill="#9ca3af"/><text x="686" y="548" font-weight="700">GND</text>
+    <circle cx="700" cy="572" r="7" fill="#b45309"/><text x="686" y="576" font-weight="700">3V3</text>
+  </g>
+
+  <!-- ===================== Left callouts ===================== -->
+  <g stroke-width="2">
+    <line x1="493" y1="264" x2="432" y2="264" stroke="#2563eb"/>
+    <line x1="493" y1="292" x2="432" y2="292" stroke="#2563eb"/>
+    <line x1="493" y1="320" x2="432" y2="320" stroke="#2563eb"/>
+    <line x1="493" y1="348" x2="432" y2="348" stroke="#7c3aed"/>
+    <line x1="493" y1="376" x2="432" y2="376" stroke="#15803d"/>
+    <line x1="493" y1="404" x2="432" y2="404" stroke="#c2410c"/>
+    <line x1="493" y1="544" x2="432" y2="544" stroke="#374151"/>
+    <line x1="493" y1="572" x2="432" y2="572" stroke="#dc2626"/>
+  </g>
+  <g font-size="13" font-weight="600" fill="#ffffff">
+    <rect x="142" y="252" width="290" height="24" rx="5" fill="#2563eb"/><text x="154" y="269">D34 · JOY_X → joystick VRx (analog)</text>
+    <rect x="142" y="280" width="290" height="24" rx="5" fill="#2563eb"/><text x="154" y="297">D35 · JOY_Y → joystick VRy (analog)</text>
+    <rect x="142" y="308" width="290" height="24" rx="5" fill="#2563eb"/><text x="154" y="325">D32 · JOY_SW → joystick SW</text>
+    <rect x="142" y="336" width="290" height="24" rx="5" fill="#7c3aed"/><text x="154" y="353">D33 · PIR_OUT → PIR OUT</text>
+    <rect x="142" y="364" width="290" height="24" rx="5" fill="#15803d"/><text x="154" y="381">D25 · DHT_DATA → DHT11 DATA</text>
+    <rect x="142" y="392" width="290" height="24" rx="5" fill="#c2410c"/><text x="154" y="409">D26 · FAN_PWM → 100 Ω → MOSFET gate</text>
+    <rect x="142" y="532" width="290" height="24" rx="5" fill="#374151"/><text x="154" y="549">GND → ground rail</text>
+    <rect x="142" y="560" width="290" height="24" rx="5" fill="#dc2626"/><text x="154" y="577">VIN · +5V rail → PIR VCC, fan (+)</text>
+  </g>
+  <text x="287" y="442" text-anchor="middle" font-size="12" fill="#475569">↑ every module signal sits in one block</text>
+  <text x="287" y="460" text-anchor="middle" font-size="12" fill="#475569">(D34 → D26): short traces that never cross</text>
+
+  <!-- ===================== Right callouts ===================== -->
+  <g stroke-width="2">
+    <line x1="707" y1="208" x2="768" y2="208" stroke="#0f766e"/>
+    <line x1="707" y1="292" x2="768" y2="292" stroke="#0f766e"/>
+    <line x1="707" y1="488" x2="768" y2="488" stroke="#60a5fa" stroke-dasharray="4 3"/>
+    <line x1="707" y1="544" x2="768" y2="544" stroke="#374151"/>
+    <line x1="707" y1="572" x2="768" y2="572" stroke="#b45309"/>
+  </g>
+  <g font-size="13" font-weight="600" fill="#ffffff">
+    <rect x="768" y="196" width="290" height="24" rx="5" fill="#0f766e"/><text x="780" y="213">D22 · I2C_SCL → OLED SCL</text>
+    <rect x="768" y="280" width="290" height="24" rx="5" fill="#0f766e"/><text x="780" y="297">D21 · I2C_SDA → OLED SDA</text>
+    <rect x="768" y="532" width="290" height="24" rx="5" fill="#374151"/><text x="780" y="549">GND → ground rail</text>
+    <rect x="768" y="560" width="290" height="24" rx="5" fill="#b45309"/><text x="780" y="577">3V3 · +3V3 rail → OLED, DHT11, joystick</text>
+  </g>
+  <rect x="768" y="476" width="290" height="24" rx="5" fill="#ffffff" stroke="#60a5fa" stroke-dasharray="4 3"/>
+  <text x="780" y="493" font-size="13" font-weight="600" fill="#1d4ed8">D2 · on-board blue LED (no wiring)</text>
+
+  <line x1="40" y1="650" x2="1160" y2="650" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- ===================== Fan driver schematic ===================== -->
+  <text x="40" y="686" font-size="16" font-weight="700" fill="#0f172a">Fan driver on the PCB (Q1 switches the motor's negative wire)</text>
+
+  <text x="40" y="735" font-size="14" font-weight="700" fill="#dc2626">+5V (VIN)</text>
+  <line x1="130" y1="730" x2="570" y2="730" stroke="#dc2626" stroke-width="2.5"/>
+
+  <g stroke="#334155" stroke-width="2" fill="none">
+    <!-- D1 flyback diode: cathode to +5V, anode to FAN- -->
+    <line x1="210" y1="730" x2="210" y2="776"/>
+    <line x1="198" y1="776" x2="222" y2="776"/>
+    <line x1="210" y1="800" x2="210" y2="850"/>
+    <!-- motor -->
+    <line x1="300" y1="730" x2="300" y2="766"/>
+    <line x1="300" y1="814" x2="300" y2="872"/>
+    <!-- R4 + LED1 fan indicator -->
+    <line x1="480" y1="730" x2="480" y2="748"/>
+    <line x1="480" y1="782" x2="480" y2="792"/>
+    <line x1="468" y1="812" x2="492" y2="812"/>
+    <line x1="480" y1="812" x2="480" y2="850"/>
+    <!-- FAN- node -->
+    <line x1="210" y1="850" x2="480" y2="850" stroke-width="2.5"/>
+    <!-- Q1 source to GND -->
+    <line x1="300" y1="924" x2="300" y2="948"/>
+    <!-- gate drive: GPIO -> R1 -> gate, R2 to GND -->
+    <line x1="150" y1="898" x2="170" y2="898"/>
+    <line x1="210" y1="898" x2="266" y2="898"/>
+    <line x1="232" y1="898" x2="232" y2="906"/>
+    <line x1="232" y1="936" x2="232" y2="948"/>
+    <!-- GND symbols -->
+    <line x1="286" y1="948" x2="314" y2="948"/><line x1="291" y1="954" x2="309" y2="954"/><line x1="296" y1="960" x2="304" y2="960"/>
+    <line x1="218" y1="948" x2="246" y2="948"/><line x1="223" y1="954" x2="241" y2="954"/><line x1="228" y1="960" x2="236" y2="960"/>
+  </g>
+  <polygon points="198,800 222,800 210,778" fill="#334155"/>
+  <circle cx="300" cy="790" r="24" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <text x="300" y="796" text-anchor="middle" font-size="16" font-weight="700" fill="#334155">M</text>
+  <rect x="472" y="748" width="16" height="34" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <polygon points="468,792 492,792 480,810" fill="#16a34a"/>
+  <rect x="170" y="890" width="40" height="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <rect x="224" y="906" width="16" height="30" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <rect x="266" y="872" width="68" height="52" rx="4" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+  <g fill="#334155">
+    <circle cx="210" cy="730" r="3.5"/><circle cx="300" cy="730" r="3.5"/><circle cx="480" cy="730" r="3.5"/>
+    <circle cx="300" cy="850" r="3.5"/><circle cx="232" cy="898" r="3.5"/>
+  </g>
+
+  <g font-size="12.5" fill="#334155">
+    <text x="194" y="793" text-anchor="end">D1 1N5819</text>
+    <text x="334" y="786">fan motor</text>
+    <text x="334" y="802">(off-board, via J6)</text>
+    <text x="498" y="769">R4 1k</text>
+    <text x="498" y="806">LED1 "fan on"</text>
+    <text x="490" y="855">FAN− (J6 pin 2)</text>
+    <text x="300" y="893" text-anchor="middle" font-weight="700">Q1</text>
+    <text x="300" y="910" text-anchor="middle" font-size="11">AO3400A</text>
+    <text x="308" y="866" font-size="11">D</text>
+    <text x="262" y="893" font-size="11" text-anchor="end">G</text>
+    <text x="308" y="940" font-size="11">S</text>
+    <text x="190" y="884" text-anchor="middle">R1 100 Ω</text>
+    <text x="218" y="926" text-anchor="end">R2 100k</text>
+  </g>
+  <text x="40" y="903" font-size="13" font-weight="700" fill="#c2410c">D26 / FAN_PWM</text>
+  <text x="40" y="992" font-size="12.5" fill="#475569">Also on +5V, right next to J6: C1 470 µF electrolytic and C2 100 nF ceramic to GND. With the soft-start in the code they stop USB brown-outs.</text>
+
+  <!-- ===================== Connector pin-outs ===================== -->
+  <text x="640" y="686" font-size="16" font-weight="700" fill="#0f172a">Board connectors (pin 1 first)</text>
+  <g font-size="14" fill="#0f172a">
+    <text x="640" y="722" font-weight="700">J1  OLED SSD1306 (1×4)</text>
+    <text x="640" y="741">GND · 3V3 · SCL · SDA</text>
+    <text x="640" y="768" font-weight="700">J2  I2C expansion (1×4, optional)</text>
+    <text x="640" y="787">GND · 3V3 · SCL · SDA</text>
+    <text x="640" y="814" font-weight="700">J3  DHT11 (1×3)</text>
+    <text x="640" y="833">3V3 · DATA · GND   (R3 10k from DATA to 3V3)</text>
+    <text x="640" y="860" font-weight="700">J4  PIR HC-SR501 (1×3)</text>
+    <text x="640" y="879">+5V · OUT · GND</text>
+    <text x="640" y="906" font-weight="700">J5  Joystick KY-023 (1×5)</text>
+    <text x="640" y="925">GND · 3V3 · VRx · VRy · SW</text>
+    <text x="640" y="952" font-weight="700">J6  Fan motor (2-pin screw terminal)</text>
+    <text x="640" y="971">FAN+ (+5V) · FAN− (Q1 drain)</text>
+  </g>
+
+  <rect x="40" y="1008" width="1120" height="38" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="60" y="1032" font-size="14" fill="#991b1b">⚠ Power the OLED, DHT11 and joystick from 3V3, never 5V: ESP32 pins are not 5 V tolerant. Only the PIR and the fan use +5V.</text>
+</svg>

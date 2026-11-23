@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Smart_Station.PrjPcb]
+   Generated File[Smart_Station-Plated.TXT]
+   Generated File[Smart_Station-NonPlated.TXT]
+   Generated File[Smart_Station.LDP]
+   Generated File[Smart_Station.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 5:39:30 PM On 2026-11-11
